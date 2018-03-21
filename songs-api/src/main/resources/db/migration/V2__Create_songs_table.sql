@@ -1,0 +1,6 @@
+CREATE TABLE SONGS (
+  ID serial,
+  TITLE varchar(100) NOT NULL,
+  SONG_LENGTH integer NOT NULL,
+  ARTIST varchar(100) NOT NULL
+);
